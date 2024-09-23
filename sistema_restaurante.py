@@ -16,3 +16,14 @@ time.sleep
 def limpa_terminal():
     os.system("cls || clear") 
 
+    
+while True:
+    numero = int(input(f"Digite o {i+1}° número: "))
+    limpar_terminal()
+    match (numero):
+        case
+                lista_pratos.append(numero)
+                break
+            else:
+                print("Número inválido! \nTente novamente.")   
+       
