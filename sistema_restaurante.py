@@ -17,15 +17,15 @@ time.sleep
 def limpa_terminal():
     os.system("cls || clear") 
 
-    
+lista_pratos = []    
 while True:
-    numero = int(input(f"Digite o {i+1}° número: "))
-    limpar_terminal()
+    numero = int(input(f"Digite a numeração do prato desejado:  "))
+    limpa_terminal()
     match (numero):
-        case
-                lista_pratos.append(numero)
-                break
-            else:
-                print("Número inválido! \nTente novamente.")   
+        case 1 | 2 | 3 | 4 | 5 | 6 | 7:
+            lista_pratos.append(numero)
+            
+        case _:
+            print("Número inválido! \nTente novamente.")   
 
 
