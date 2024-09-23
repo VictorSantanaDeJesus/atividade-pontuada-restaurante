@@ -9,6 +9,7 @@ Nome completo dos componentes.
 
 import os
 # Limpa o terminal.
+
 os.system("cls || clear") 
 import time
 time.sleep
@@ -26,4 +27,5 @@ while True:
                 break
             else:
                 print("Número inválido! \nTente novamente.")   
-       
+
+
