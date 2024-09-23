@@ -7,10 +7,12 @@ Nome completo dos componentes.
 2 - Lucas Pereira da Silva
 """
 
-
 import os
-
 # Limpa o terminal.
 os.system("cls || clear") 
+import time
+time.sleep
 
+def limpa_terminal():
+    os.system("cls || clear") 
 
