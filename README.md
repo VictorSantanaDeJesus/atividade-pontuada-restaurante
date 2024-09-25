@@ -7,7 +7,7 @@ Você e um(a) colega são desenvolvedores de uma equipe de software responsável
 Desenvolvam juntos um sistema que permita ao usuário visualizar o cardápio com 7 opções de pratos e escolher os itens que deseja pedir. Ao final, o programa deverá calcular o total a ser pago, aplicando as regras de pagamento que o restaurante utiliza. Vocês irão atuar como um time de desenvolvimento, trabalhando em pares, com cada um contribuindo para a criação das funcionalidades e da lógica de negócios.
 
 ## Regras do sistema:
-1. Exibir um menu com 7 pratos, apresentando o **código do prato** e o **nome**.
+C
 2. O usuário poderá inserir o código do prato desejado. Caso o código seja inválido, o sistema deve alertar o usuário e pedir novamente um código válido.
 3. O sistema deverá perguntar ao usuário se ele deseja fazer outro pedido e, se sim, permitir a adição de mais pratos ao pedido.
 4. Acumular os valores de cada prato escolhido.

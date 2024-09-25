@@ -13,14 +13,37 @@ Ao final, o programa deverá calcular o total a ser pago, aplicando as regras de
 trabalhando em pares, com cada um contribuindo para a criação das funcionalidades e da lógica de negócios.
 """
 import os
-os.system("cls || clear")
+os.system("cls||clear")
 
-lasanha = 1
-pizza = 2
-feijoada = 3
-Strogonoff = 4
-macarronada = 5
-Hamburguer = 6
-pastel = 7
+print("""
+ℝ𝕖𝕤𝕥𝕒𝕦𝕣𝕒𝕟𝕥𝕖 𝕤𝕖𝕟𝕒𝕚
+""")
 
-menu= input(int("Digite uma opção de prato: "))
+opcoes = {
+
+    1: "Lasanha",
+    2: "Pizza",
+    3: "Sushi",
+    4: "Feijoada",
+    5: "Pastel",
+    6: "Bolo",
+    7: "Pudim"
+}
+
+opcao_escolhida = 0
+
+print("Menu de Pratos:")
+
+for opcao_escolhida, nome in opcoes.items():
+    print(f"{opcao_escolhida}: {nome}")
+
+while True:
+    try:
+        opcao_escolhida = int(input("Digite o código do prato desejado: "))
+        if opcao_escolhida in opcoes:
+            print(f"Você selecionou: {opcoes[opcao_escolhida]}")
+            break
+        else:
+            print(f"Código inválido! Por favor, tente novamente.")
+    except ValueError:
+        print(f"Entrada inválida! Por favor, insira um número.")
