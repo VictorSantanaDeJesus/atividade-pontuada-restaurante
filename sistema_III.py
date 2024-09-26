@@ -26,7 +26,7 @@ def solicitar_prato(nomes_pratos, precos_pratos):
         limpa_terminal()
         exibir_cardapio(nomes_pratos, precos_pratos)
         
-        numero = int(input("Digite a numeração do prato desejado, ou digite 0 para encerrar o pedido: "))
+        numero = int(input("Digite a numeração do prato desejado: "))
         limpa_terminal()
 
         match numero:
