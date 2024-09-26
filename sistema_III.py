@@ -1,4 +1,4 @@
-import os
+import os 
 import time
 
 # Listas dos nomes e preços dos pratos
